@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Minha primeira página web</title>
+  </head>
+  <body>
+    <h1>Esta é a primeira página web da aula de pensamento computacional</h1>
+    <h2>Michelle Eduarda de Freitas Souza</h2>
+    <h1 id='h1_hora'></h1>
+    <script>
+      let hora_certa= new Date();
+      let h1_hora= document.querySelector("#h1_hora");
+      h1_hora.textContent = "A hora certa é: "+hora_certa.getHours()+":"+hora_certa.getMinutes();
+    </script>
+  </body>
+</html>
